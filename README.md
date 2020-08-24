@@ -1,6 +1,8 @@
 php-simple-html-dom-parser
 ==========================
 
+Forked from https://github.com/sunra/php-simple-html-dom-parser
+
 Version 1.5.2
 
 Adaptation for Composer and PSR-0 of:
@@ -32,7 +34,7 @@ use Sunra\PhpSimple\HtmlDomParser;
 
 ...
 $dom = HtmlDomParser::str_get_html( $str );
-or 
+or
 $dom = HtmlDomParser::file_get_html( $file_name );
 
 $elems = $dom->find($elem_name);
